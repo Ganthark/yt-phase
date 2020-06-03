@@ -18,6 +18,7 @@ Each click will make the bar appear or disappear according to its current state.
 ### Notes
 - Be aware that the javascript is executed once when you click on the bookmarklet, when reloading or changing pages its effect will no longer be active.
 - The javascript might be a bit crude, do not hesitate to suggest improvements.
+- This code has been tested and works on Chrome and Firefox, feel free to share your experience about other browsers.
  
  <br/>
  
