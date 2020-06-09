@@ -10,7 +10,7 @@ A short javascript bookmarklet code for those who want to hide the YouTube progr
 To install it, just create a new bookmark, name it however you want (but preferably YT-PHASE like me ! ) and paste the following code as the URL:
 
 ```javascript
-javascript:(function(){var timer="";var player=document.querySelector('.html5-video-player');var ytp_bar=document.getElementsByClassName("ytp-chrome-bottom");var ytp_bar_opacity=ytp_bar.item(0).style.opacity;if(ytp_bar_opacity==""||ytp_bar_opacity==0){ytp_bar.item(0).style.opacity=1;player.showControls();timer=setInterval(function(){player.wakeUpControls()},1000)}else{ytp_bar.item(0).style.opacity=0;player.hideControls();}})();
+javascript:(function(){var timer="";var player=document.querySelector('.html5-video-player');var ytp_bar=document.getElementsByClassName("ytp-chrome-bottom");var ytp_bar_opacity=ytp_bar.item(0).style.opacity;if(ytp_bar_opacity==""||ytp_bar_opacity==0){ytp_bar.item(0).style.opacity=1;player.showControls();document.getElementsByClassName("ytp-fullerscreen-edu-button")[0].style.opacity=0;timer=setInterval(function(){player.wakeUpControls()},1000)}else{ytp_bar.item(0).style.opacity=0;player.hideControls();document.getElementsByClassName("ytp-fullerscreen-edu-button")[0].style.opacity=0.9}})();
 ```
 Add this bookmark to your browser toolbar and you are ready to use it!  
 Each click will make the bar appear or disappear according to its current state.  
