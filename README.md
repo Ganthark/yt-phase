@@ -20,7 +20,7 @@ Also works on fullscreen mode!
 ### Notes
 - Be aware that the javascript is executed once when you click on the bookmarklet, when reloading or changing pages its effect will no longer be active. At the moment, reloading is also the only way to get back the normal player behavior. The effect of the code seems to stay active when autoplay is enabled. Please share your experience with this functionnality.
 - The javascript might be a bit crude, do not hesitate to suggest improvements. This code would not work properly if not used as a bookmarklet.
-- This code has been tested and works on Chrome and Firefox, feel free to share your experience about other browsers.
+- This code has been tested and works on Chrome, Firefox and Brave, feel free to share your experience about other browsers.
  
  <br/>
  
